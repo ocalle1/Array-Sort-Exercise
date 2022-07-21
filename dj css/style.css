@@ -1,0 +1,88 @@
+
+
+
+#box1 {
+    height: 100px;
+    width: 200px;
+    background-color: rgb(68, 0, 255);
+    margin-bottom: 10px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: .5s;
+}
+#box1:hover{
+    background-color: darkred;
+    width: 250px;
+}
+#box2 {
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    margin-bottom: 10px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+#box2:hover{
+    background-color: darkturquoise;
+    width: 400px;
+
+}
+#box3 {
+    height: 100px;
+    width: 200px;
+    background-color: blanchedalmond;
+    margin-bottom: 10px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+}
+#box3:hover{
+    background-color: dodgerblue;
+    height: 200px;
+}
+
+#box4{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+#box4:hover{
+    background-color: gold;
+    width: 600px;
+}
+#box5{
+    height: 100px;
+    width: 200px;
+    background-color: crimson;
+    margin-bottom: 10px;
+}
+#box5:hover{
+    background-color: green;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+#box6 {
+    height: 100px;
+    width: 200px;
+    background-color: darkgoldenrod;
+    margin-bottom: 10px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+}
+#box6:hover{
+    background-color: blue;
+    width: 450px;
+}
