@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Baskerville:400,400italic);
+/* ::before allows the background:url(enso.svg) to be applied before the text */
+
+
+html,body {
+    padding: 0;
+    margin: 0;
+   }
+
+   body, panel1 {
+    color: #325050;
+    background: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 100%;
+   } 
+h1::before{
+    display: inline-block;
+    position: relative;
+    top: 65px;
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: -65px 40px 0 0;
+    background: url(http://www.csszengarden.com/214/enso.svg);
+    background-size: 100%;
+text-align: center;
+}
+h2{
+    margin-left: 150px;
+    
+}
+
+.topLeft{
+background: url(http://www.csszengarden.com/214/contours@2x.png), url(http://www.csszengarden.com/214/noise.png), 
+url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+font-family: 'Julius Sans One', sans-serif;
+    color: #fff;   
+height: 250px;
+width: 100%;
+font-weight: normal;
+    text-align: center;
+    grid-column: 1 / 2;
+}
+.topRight{
+    background: url(http://www.csszengarden.com/214/contours@2x.png), url(http://www.csszengarden.com/214/noise.png), 
+url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/huntington.jpg);
+width: 100%; 
+font-family: 'Julius Sans One', sans-serif;
+font-size: small;
+color: rgba(255, 255, 255, 0.65);   
+text-align: center;
+    grid-column: 2 / 4 ;
+}
+
+
+
+.panel1{
+    display: grid;
+    grid-template-columns: 100px, auto, 100px;
+    font-family: 'Libre Baskerville', serif;
+    margin: 12px 0;
+    color: #325050;
+    font-style: normal;
+    font-weight: 400;
+}
+.underLeft{
+    background: url(http://www.csszengarden.com/214/bamboo.png);
+    /* background-repeat: no-repeat; */
+  
+     background-color: #fff;
+  grid-column: 1 / 2;  
+}
+.underRight{
+    
+    background-color: #daf7f7;
+    grid-column: 2 / 4;
+}
+
+#theRoad{
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #2E484C;  
+}
+#soWhatIs{
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #2E484C;  
+   
+}
+#removeBullets{
+    list-style-type: none;
+}
+.middleLeft{
+background-color: #8ABC9F80;
+color: #325050;
+grid-column: 1 / 2;
+}
+#participation{
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #2E484C;  
+}
+#benefits{
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #2E484C;   
+}
+.middleRight{
+    background-color: #75bd9380;
+    grid-column: 2 / 4;
+}
+.bottomLeft{
+    background-color: #fff;
+    grid-column: 1 / 2;
+}
+#requirements{
+    font-family: 'Julius Sans One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #2E484C;  
+}
+.bottomRight{
+    background-color: #eef1f1;
+    grid-column: 2 /4 ;
+}
+.end{
+    background: url(http://www.csszengarden.com/214/contours-opaque.png);
+    background-color: cadetblue;
+    height: 200px;
+    grid-column: 1 / 4;
+}
+.footer{
+    background-color: darkcyan;
+    height: 150px;
+    grid-column: 1 / 4;
+}
+ 
