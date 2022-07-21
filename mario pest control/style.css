@@ -1,0 +1,26 @@
+#title{
+    font-size: 40px;
+    font-family: cursive;
+    margin-left: 600px;
+}
+body{
+    background-color: aqua;
+}
+
+#container{
+    display: flex;
+    font-size: larger;
+    font-family: cursive;
+    width: 50%;
+    background-color: red;
+    margin-left: 20px;
+    
+}
+
+#footer{
+    background-color: sienna;
+    margin-left: 1650px;
+    font-size: medium;
+    font-family: monospace;
+    
+}
