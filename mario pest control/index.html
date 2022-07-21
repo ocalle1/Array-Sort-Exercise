@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h5 id="title">Mario Pest Control</h5>
+</head>
+
+<body>
+
+    <div id="container">
+        <form name="billing">
+            <ul id="pestList">
+                <li style="list-style-type: none;" id="goomba">
+                    <img src="https://mario.wiki.gallery/images/6/65/Goomba_-_Mario_Party_Superstars.png" alt=""
+                        style="width: 100px; height: 100px;">
+                    <br>
+                    <span style="margin-left: 10px;">Goomba removal cost is 5 coins</span>
+                    <!-- The id="goomba" and the other 2 has to be grabbed from JS in the function for the total caught and total amount due -->
+                    <!-- The name=pest is to be grabbed by the CSS to add style -->
+                    <br>
+                    <input type="number" name="goomba" id="goombaCriter" placeholder="qty">
+                </li>
+                <br>
+                <br>
+                <li style="list-style-type: none;" id="bomb">
+                    <img src="https://mario.wiki.gallery/images/a/a1/DMW-KingBobOmb.png" alt=""
+                        style="width: 100px; height: 100px;">
+                    <br>
+                    <span style="margin-left: 10px;">Bob-ombs removal cost is 7 coins</span>
+                    <br>
+                    <input type="number" name="bombomb" id="bombCriter" placeholder="qty">
+                </li>
+                <br>
+                <br>
+                <li style="list-style-type: none;" id="cheep">
+                <img src="https://mario.wiki.gallery/images/6/63/CheepCheepNSMBU.png" alt=""
+                    style="width: 100px; height: 100px;">
+                <br>
+                <span style="margin-left: 10px;">Cheep-cheep removal cost is 11 coins</span>
+                <br>
+                <input type="number" name="pest" id="cheepCriter" placeholder="qty">
+                </li>
+            </ul>
+            <br>
+            <button type="sumbit" id="button"> Total</button>
+            <h2 style="font-size: 20px;" id="total"></h2>
+        </form>
+        </div>
+            <footer id="footer">marioBros@yahoo.com 
+                <br>
+                www.marioPestControl.com 
+                <br>
+                333 North Star, Pensecola,FL 120345
+            </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
