@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- needs the JS to respond -- js line 28 -->
+    <!-- <button onclick= "clickCounter()" type="button">Clicks</button>
+    <p>Clicks amount:</p>
+    <p id="click"></p> -->
+
+    <!-- <button type="button" onClick="onClick()">Click me</button>
+<p>Clicks: <a id="clicks">0</a></p> -->
+
+<button onclick="displayCount()">click</button>
+<p id="carrier">0</p>
+<script src="index.js"></script>
+</body>
+
+<script>
+    var count = (function(){
+        
+        var counter =0;
+return function() {return counter +=1;}
+    }) ();
+
+    function displayCount(){
+        document.getElementById("carrier").innerHTML = count();
+    }
+</script>
+
+   
+
+</html>
