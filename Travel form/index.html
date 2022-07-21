@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form name="myForm">
+        <!--Name-->
+        <input type="text" placeholder="First Name" required />
+        <input type="text" placeholder="Last Name" required />
+        <!--age-->
+        <input type="number" placeholder="Age" required />
+
+        <!--Gender; radio-->
+        male: <input type="radio" name="gender" value="Male" />
+        Female: <input type="radio" name="gender" value="Female" />
+
+        <!--Location Traveled; select option-->
+        <select name="destination">
+            <option value="Japan">Japan</option>
+            <option value="Germany">Germany</option>
+            <option value="USA">USA</option>
+        </select>
+
+        <!--dietry restriction; Checkbox-->
+        Dietary Restrictions?
+        Vegetarian: <input type="checkbox" value="vegetarian" name="food"/>
+        Kosher: <input type="checkbox" value="kosher" name="food"/>
+        Lactose free: <input type="checkbox" value="vegetarian" name="food"/>
+
+        <button>Submit</button>
+
+    </form>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
